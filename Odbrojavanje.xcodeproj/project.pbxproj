@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0BA6CCB72D02B81900E68597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA6CC9E2D02B81800E68597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA6CCA52D02B81800E68597;
+			remoteInfo = Odbrojavanje;
+		};
+		0BA6CCC12D02B81900E68597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA6CC9E2D02B81800E68597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA6CCA52D02B81800E68597;
+			remoteInfo = Odbrojavanje;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA6CCA62D02B81800E68597 /* Odbrojavanje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odbrojavanje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA6CCB62D02B81900E68597 /* OdbrojavanjeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdbrojavanjeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA6CCC02D02B81900E68597 /* OdbrojavanjeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdbrojavanjeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0BA6CCA82D02B81800E68597 /* Odbrojavanje */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Odbrojavanje;
+			sourceTree = "<group>";
+		};
+		0BA6CCB92D02B81900E68597 /* OdbrojavanjeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OdbrojavanjeTests;
+			sourceTree = "<group>";
+		};
+		0BA6CCC32D02B81900E68597 /* OdbrojavanjeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OdbrojavanjeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA6CCA32D02B81800E68597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA6CCB32D02B81900E68597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA6CCBD2D02B81900E68597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA6CC9D2D02B81800E68597 = {
+			isa = PBXGroup;
+			children = (
+				0BA6CCA82D02B81800E68597 /* Odbrojavanje */,
+				0BA6CCB92D02B81900E68597 /* OdbrojavanjeTests */,
+				0BA6CCC32D02B81900E68597 /* OdbrojavanjeUITests */,
+				0BA6CCA72D02B81800E68597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BA6CCA72D02B81800E68597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA6CCA62D02B81800E68597 /* Odbrojavanje.app */,
+				0BA6CCB62D02B81900E68597 /* OdbrojavanjeTests.xctest */,
+				0BA6CCC02D02B81900E68597 /* OdbrojavanjeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BA6CCA52D02B81800E68597 /* Odbrojavanje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA6CCCA2D02B81900E68597 /* Build configuration list for PBXNativeTarget "Odbrojavanje" */;
+			buildPhases = (
+				0BA6CCA22D02B81800E68597 /* Sources */,
+				0BA6CCA32D02B81800E68597 /* Frameworks */,
+				0BA6CCA42D02B81800E68597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0BA6CCA82D02B81800E68597 /* Odbrojavanje */,
+			);
+			name = Odbrojavanje;
+			packageProductDependencies = (
+			);
+			productName = Odbrojavanje;
+			productReference = 0BA6CCA62D02B81800E68597 /* Odbrojavanje.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BA6CCB52D02B81900E68597 /* OdbrojavanjeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA6CCCD2D02B81900E68597 /* Build configuration list for PBXNativeTarget "OdbrojavanjeTests" */;
+			buildPhases = (
+				0BA6CCB22D02B81900E68597 /* Sources */,
+				0BA6CCB32D02B81900E68597 /* Frameworks */,
+				0BA6CCB42D02B81900E68597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA6CCB82D02B81900E68597 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BA6CCB92D02B81900E68597 /* OdbrojavanjeTests */,
+			);
+			name = OdbrojavanjeTests;
+			packageProductDependencies = (
+			);
+			productName = OdbrojavanjeTests;
+			productReference = 0BA6CCB62D02B81900E68597 /* OdbrojavanjeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BA6CCBF2D02B81900E68597 /* OdbrojavanjeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA6CCD02D02B81900E68597 /* Build configuration list for PBXNativeTarget "OdbrojavanjeUITests" */;
+			buildPhases = (
+				0BA6CCBC2D02B81900E68597 /* Sources */,
+				0BA6CCBD2D02B81900E68597 /* Frameworks */,
+				0BA6CCBE2D02B81900E68597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA6CCC22D02B81900E68597 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BA6CCC32D02B81900E68597 /* OdbrojavanjeUITests */,
+			);
+			name = OdbrojavanjeUITests;
+			packageProductDependencies = (
+			);
+			productName = OdbrojavanjeUITests;
+			productReference = 0BA6CCC02D02B81900E68597 /* OdbrojavanjeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BA6CC9E2D02B81800E68597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					0BA6CCA52D02B81800E68597 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0BA6CCB52D02B81900E68597 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0BA6CCA52D02B81800E68597;
+					};
+					0BA6CCBF2D02B81900E68597 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0BA6CCA52D02B81800E68597;
+					};
+				};
+			};
+			buildConfigurationList = 0BA6CCA12D02B81800E68597 /* Build configuration list for PBXProject "Odbrojavanje" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BA6CC9D2D02B81800E68597;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0BA6CCA72D02B81800E68597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BA6CCA52D02B81800E68597 /* Odbrojavanje */,
+				0BA6CCB52D02B81900E68597 /* OdbrojavanjeTests */,
+				0BA6CCBF2D02B81900E68597 /* OdbrojavanjeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BA6CCA42D02B81800E68597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA6CCB42D02B81900E68597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA6CCBE2D02B81900E68597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA6CCA22D02B81800E68597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA6CCB22D02B81900E68597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA6CCBC2D02B81900E68597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BA6CCB82D02B81900E68597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA6CCA52D02B81800E68597 /* Odbrojavanje */;
+			targetProxy = 0BA6CCB72D02B81900E68597 /* PBXContainerItemProxy */;
+		};
+		0BA6CCC22D02B81900E68597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA6CCA52D02B81800E68597 /* Odbrojavanje */;
+			targetProxy = 0BA6CCC12D02B81900E68597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BA6CCC82D02B81900E68597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BA6CCC92D02B81900E68597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BA6CCCB2D02B81900E68597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Odbrojavanje/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rodic.Odbrojavanje;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BA6CCCC2D02B81900E68597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Odbrojavanje/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rodic.Odbrojavanje;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BA6CCCE2D02B81900E68597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rodic.OdbrojavanjeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odbrojavanje.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Odbrojavanje";
+			};
+			name = Debug;
+		};
+		0BA6CCCF2D02B81900E68597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rodic.OdbrojavanjeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odbrojavanje.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Odbrojavanje";
+			};
+			name = Release;
+		};
+		0BA6CCD12D02B81900E68597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rodic.OdbrojavanjeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Odbrojavanje;
+			};
+			name = Debug;
+		};
+		0BA6CCD22D02B81900E68597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rodic.OdbrojavanjeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Odbrojavanje;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA6CCA12D02B81800E68597 /* Build configuration list for PBXProject "Odbrojavanje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA6CCC82D02B81900E68597 /* Debug */,
+				0BA6CCC92D02B81900E68597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA6CCCA2D02B81900E68597 /* Build configuration list for PBXNativeTarget "Odbrojavanje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA6CCCB2D02B81900E68597 /* Debug */,
+				0BA6CCCC2D02B81900E68597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA6CCCD2D02B81900E68597 /* Build configuration list for PBXNativeTarget "OdbrojavanjeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA6CCCE2D02B81900E68597 /* Debug */,
+				0BA6CCCF2D02B81900E68597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA6CCD02D02B81900E68597 /* Build configuration list for PBXNativeTarget "OdbrojavanjeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA6CCD12D02B81900E68597 /* Debug */,
+				0BA6CCD22D02B81900E68597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BA6CC9E2D02B81800E68597 /* Project object */;
+}
