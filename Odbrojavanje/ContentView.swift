@@ -40,7 +40,8 @@ struct ContentView: View {
                     // Countdown Display
                     Text("Countdown: \(countdownVM.remainingTime)")
                         .font(.largeTitle)
-                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding() 
                     
                     // Progress Bar
                     ProgressView(value: countdownVM.progress)
